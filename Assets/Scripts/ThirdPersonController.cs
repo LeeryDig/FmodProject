@@ -2,6 +2,7 @@
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
+using FMOD.Studio;
 
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
@@ -14,6 +15,7 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
@@ -304,6 +306,7 @@ namespace StarterAssets
                 {
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+                    AudioManager.instance.PlayOneShot(FmodEvents.instance.PlayerJump, transform.position);
 
                     // update animator if using character
                     if (_hasAnimator)
