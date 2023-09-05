@@ -1,5 +1,5 @@
 public enum MusicArea
 {
-    GRAY_AREA = 0,
-    BLUE_AREA = 1
+    WHITE = 0,
+    ORANGE = 1
 }

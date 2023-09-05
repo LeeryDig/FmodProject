@@ -353,7 +353,7 @@ MonoBehaviour:
   sourceProjectPath: Assets/FmodProjeto/FmodProjeto.fspro
   sourceBankPath: Assets/FmodProjeto/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -376,7 +376,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambient
-  - Music
+  - Bird
   - Player
   BanksToLoad: []
   LiveUpdatePort: 9264

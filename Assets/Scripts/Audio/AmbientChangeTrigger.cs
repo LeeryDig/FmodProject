@@ -8,9 +8,9 @@ public class AmbientChangeTrigger : MonoBehaviour
     [SerializeField] private string parameterName;
     [SerializeField] private float parameterValue;
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter(Collider collider)
     {
-        if (collider.tag.Equals("Player"))
+        if (collider.CompareTag("Player"))
         {
             AudioManager.instance.SetAmbienceParameter(parameterName, parameterValue);
         }
