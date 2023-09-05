@@ -48,8 +48,8 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        InitializeAmbience(FmodEvents.instance.Ambience);
-        InitializeMusic(FmodEvents.instance.Music);
+        //InitializeAmbience(FmodEvents.instance.Ambience);
+        //InitializeMusic(FmodEvents.instance.Music);
     }
 
     private void Update()

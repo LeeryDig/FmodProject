@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{014d05d8-c348-4b5d-b64e-42d06d75fbfd}">
+		<property name="assetPath">
+			<value>Music/music_radio_station_hiphop_loop.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>41.958049886621318</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6b99cb64-06f2-4e87-9adc-dd2c9937c573}</destination>
+		</relationship>
+	</object>
+</objects>

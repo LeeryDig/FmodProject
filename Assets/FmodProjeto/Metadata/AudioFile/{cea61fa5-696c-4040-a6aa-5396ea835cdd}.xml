@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cea61fa5-696c-4040-a6aa-5396ea835cdd}">
+		<property name="assetPath">
+			<value>VO/English/vo_en_welcome.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.1829166666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6b99cb64-06f2-4e87-9adc-dd2c9937c573}</destination>
+		</relationship>
+	</object>
+</objects>
