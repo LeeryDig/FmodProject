@@ -40,10 +40,10 @@ public class AudioManager : MonoBehaviour
         eventInstances = new List<EventInstance>();
         eventEmitters = new List<StudioEventEmitter>();
 
-        //masterBus = RuntimeManager.GetBus("bus:/");
-        //musicBus = RuntimeManager.GetBus("bus:/Music");
-        //ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
-        //sfxBus = RuntimeManager.GetBus("bus:/SFX");
+        masterBus = RuntimeManager.GetBus("bus:/");
+        musicBus = RuntimeManager.GetBus("bus:/Musicbus");
+        ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
+        sfxBus = RuntimeManager.GetBus("bus:/sfx");
     }
 
     private void Start()
@@ -54,10 +54,10 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
-        //masterBus.setVolume(masterVolume);
-        //musicBus.setVolume(musicVolume);
-        //ambienceBus.setVolume(ambienceVolume);
-        //sfxBus.setVolume(SFXVolume);
+        masterBus.setVolume(masterVolume);
+        musicBus.setVolume(musicVolume);
+        ambienceBus.setVolume(ambienceVolume);
+        sfxBus.setVolume(SFXVolume);
     }
 
     private void InitializeAmbience(EventReference ambienceEventReference)

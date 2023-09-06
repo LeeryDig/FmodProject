@@ -67,7 +67,7 @@ MonoBehaviour:
   Path: Assets/FmodProjeto/Build/Desktop/Bird.bank
   Name: Bird
   StudioPath: bank:/Bird
-  lastModified: 638295108645687898
+  lastModified: 638296092849858821
   FileSizes:
   - Name: Desktop
     Value: 117984
@@ -87,10 +87,10 @@ MonoBehaviour:
   Path: Assets/FmodProjeto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638295108645509464
+  lastModified: 638296092849885969
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1486
   Exists: 1
 --- !u!114 &-1749313798747283939
 MonoBehaviour:
@@ -148,7 +148,7 @@ MonoBehaviour:
   - {fileID: -5906107128311509461}
   StringsBanks:
   - {fileID: 5393716858242683722}
-  cacheTime: 638295108645687898
+  cacheTime: 638296092850329589
   cacheVersion: 131605
 --- !u!114 &117745867949925255
 MonoBehaviour:
@@ -165,7 +165,7 @@ MonoBehaviour:
   Path: Assets/FmodProjeto/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 638295108645452095
+  lastModified: 638296092849626441
   FileSizes:
   - Name: Desktop
     Value: 6105472
@@ -239,7 +239,7 @@ MonoBehaviour:
   Path: Assets/FmodProjeto/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 638293731524808193
+  lastModified: 638296092850329589
   FileSizes:
   - Name: Desktop
     Value: 18048
@@ -259,10 +259,10 @@ MonoBehaviour:
   Path: Assets/FmodProjeto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638295108645513494
+  lastModified: 638296092849890824
   FileSizes:
   - Name: Desktop
-    Value: 1146
+    Value: 1258
   Exists: 1
 --- !u!114 &6982574913603704730
 MonoBehaviour:
